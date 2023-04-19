@@ -1,0 +1,41 @@
+/* to hide an image from display
+/*img {
+  display: none;
+}
+*/
+
+/* to first hide image using div's */
+/*.walrus-showing {
+  display: none;
+}
+*/
+
+/* using id's instead of classes8*/
+#walrus-showing {
+  display: none;
+}
+
+/* Most users expect that when an element is clickable, it's a different color, and that when they hover their mouse over it, the cursor will change to a hand and the text will be underlined.*/
+
+/* p {
+  cursor: pointer;
+  color: #0088cc
+}
+
+p:hover {
+  text-decoration: underline;
+} */
+
+/* USE WITH CLASSES */
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+} 
+
+li {
+  background-color:green;
+}
